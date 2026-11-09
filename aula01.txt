@@ -17,3 +17,31 @@ O ciclo básico de trabalho no Git segue três estados:
 Working Directory: Onde você cria e edita seus arquivos.
 Staging Area: Onde você prepara as alterações (git add).
 Local Repository: Onde as alterações são salvas permanentemente no histórico (git commit)
+
+Guia Rápido de Comandos
+Configuração Inicial (Executado apenas uma vez)
+Bash
+git config --global user.name "Seu Nome"
+git config --global user.email "seu.email@exemplo.com"
+
+Criar ou Obter um Repositório
+Bash
+# Iniciar o Git em uma pasta existente
+git init
+
+# Clona um repositório remoto existente para a sua máquina
+git clone https://github.com/usuario/repositorio.git
+
+Ciclo Diário de Trabalho
+Bash
+# Ver o estado dos arquivos (modificados, preparados ou não monitorados)
+git status
+
+# Adicionar arquivos específicos para a Staging Area
+git add nome-do-arquivo.py
+
+# Adicionar TODOS os arquivos modificados de uma vez
+git add .
+
+# Salvar as alterações preparadas no repositório local
+git commit -m "Descrição clara da alteração realizada"
