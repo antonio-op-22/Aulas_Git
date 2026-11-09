@@ -1,0 +1,19 @@
+Aula 01
+Tema: Conceitos Fundamentais
+
+O que é o Git?
+O Git é um sistema de controle de versão distribuído.
+Ele funciona como um "histórico de edições avançado" do seu projeto, permitindo registrar alterações no código,
+voltar a versões anteriores e trabalhar em equipe sem que uma pessoa sobrescreva o trabalho da outra.
+
+
+2. Conceitos Fundamentais
+Repositório (Repo): A pasta do seu projeto monitorada pelo Git.
+Commit: Um "retrato" (snapshot) do estado dos seus arquivos em um determinado momento. Cada commit possui uma mensagem explicativa.
+Staging Area (Index): A área intermediária onde você seleciona quais arquivos modificados farão parte do próximo commit.
+Branch (Ramificação): Uma linha de desenvolvimento independente (ex: main para o código de produção, feature/login para criar uma nova funcionalidade).
+3. O Fluxo de Trabalho (Workflow)
+O ciclo básico de trabalho no Git segue três estados:
+Working Directory: Onde você cria e edita seus arquivos.
+Staging Area: Onde você prepara as alterações (git add).
+Local Repository: Onde as alterações são salvas permanentemente no histórico (git commit)
